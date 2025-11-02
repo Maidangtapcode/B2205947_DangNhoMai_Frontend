@@ -45,7 +45,7 @@
                 <i class="fas fa-trash-alt me-1"></i> Xóa
             </button>
 
-            <button type="button" class="btn btn-secondary" @click="Cancel">
+            <button  v-if="contactLocal._id" type="button" class="btn btn-secondary" @click="Cancel">
                 <i class="fas fa-times me-1"></i> Thoát
             </button>
         </div>
